@@ -18,6 +18,11 @@ flake8-bugbear = "*"
 flake8-mutable = "*"
 flake8-comprehensions = "*"
 
+[cicd-packages]
+pytest = "*"
+pytest-cov = "*"
+flake8 = "*"
+
 [packages]
 scikit-learn = "*"
 numpy = "*"
